@@ -1,0 +1,24 @@
+public class TestInheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Shape s=new Shape();
+		//System.out.println(s);
+		
+		TwoD two =new TwoD(1,"shape1","red",3.5f,4.5f);
+		ThreeD three = new ThreeD(1,"shape1","red",3.5f,4.5f);
+		Triangle tri = new Triangle(2,"shape2","blue",5.4f,3.2f);
+		Squrare squ = new Squrare(3,"shape3","green",5.4f,3.2f);
+		Pentagonal penta = new Pentagonal(4,"shape4","brown",5.4f,3.2f);
+		Hexagonal hexa = new Hexagonal(5,"shape5","voilet",5.4f,3.2f);
+		System.out.println(two);
+		System.out.println(tri);
+		System.out.println(squ);
+		System.out.println(hexa);
+		System.out.println(penta);
+		
+		
+	}
+
+	}

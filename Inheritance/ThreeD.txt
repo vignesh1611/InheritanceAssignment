@@ -1,0 +1,16 @@
+public class ThreeD extends Shape{
+
+
+	private float length;
+	private float width;
+
+	public ThreeD(int sId, String sName, String color, float length, float width) {
+		super(sId, sName, color);
+		this.length=length;
+		this.width=width;
+	}
+	@Override
+	public String toString() {
+		return super.toString()+"ThreeD [length=" + length + ", width=" + width + "]";
+}
+}

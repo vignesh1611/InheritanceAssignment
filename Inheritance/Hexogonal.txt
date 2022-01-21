@@ -1,0 +1,7 @@
+public class Hexagonal extends ThreeD{
+	public Hexagonal(int sId, String sName, String color, float length, float width)
+	{
+		super(sId,sName,color, length, width);
+	}
+
+}

@@ -1,0 +1,20 @@
+public class Shape {
+
+	private int sId;
+	private String sName;
+	private String color;
+	
+	public Shape(int sId, String sName, String color) {
+		super();
+		this.sId = sId;
+		this.sName = sName;
+		this.color = color;
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Shape [sId=" + sId + ", sName=" + sName + ", color=" + color + "]";
+	}
+}
